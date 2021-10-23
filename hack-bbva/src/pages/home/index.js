@@ -1,10 +1,13 @@
 
-
+import { NavBar } from "../../components/navBar";
 
 export const Home = () => {
     
   return (
-      <div><p>Home page</p></div>
+    <div>
+        <NavBar nombreAdscripcionUsuario="Usario" />
+          <p>Home page</p>
+    </div>
   );
 }
 
