@@ -26,9 +26,15 @@ export const NavBar = ({ nombreUsuario }, props) => {
           </Navbar.Brand>
           <Navbar.Brand
             className="justify-content-center"
-            style={{ color: "white", marginLeft: "38%" }}
-          ><h2>BBVA</h2>
-            
+            style={{ color: "white", marginLeft: "33%", }}
+          >
+            <img
+                className="d-block w-100"
+                src="https://www.bbva.mx/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg"
+                alt="Second slide"
+                style={{  height: "2.5rem" }}
+            />
+
           </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Brand style={{ color: "white" }}><AiOutlineSearch /></Navbar.Brand>
