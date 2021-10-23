@@ -1,0 +1,31 @@
+.mainNav {
+    background-color: #031539;
+    color: white;
+    width: 100%;
+  }
+  .container-drawer {
+    background-color: #031539;
+    width: 223px;
+    height: 82vh;
+    display: flex;
+    position: absolute;
+    transition: 850ms;
+    left: -100%;
+  }
+  .container-drawer.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  @media (max-width: 769px) {
+    .container-drawer {
+      background-color: #031539;
+      width: 223px;
+      height: 60vh;
+      display: flex;
+      position: absolute;
+      transition: 850ms;
+      left: -100%;
+    }
+  }
+  
