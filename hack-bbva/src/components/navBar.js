@@ -34,6 +34,7 @@ export const NavBar = ({ nombreUsuario }, props) => {
                 alt="Second slide"
                 style={{  height: "2.5rem" }}
             />
+
           </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Brand style={{ color: "white" }}><AiOutlineSearch /></Navbar.Brand>

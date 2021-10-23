@@ -1,8 +1,8 @@
-
 import React from "react";
 import { NavBar} from "../../components/navBar";
 import { Carousel, Image, Card, Button } from "react-bootstrap";
 import { useState} from "react";
+
 export const Home = () => {
 
    
@@ -34,6 +34,7 @@ export const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+
     </div>
   );
 }
